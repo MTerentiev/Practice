@@ -1,12 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-<title>Test Page 1</title>
+        <title>Test Page 1</title>
+        <meta name="description" content="Тестовая страница МТ">
+        <meta name="author"content="Mikhail Terentiev">
+        <meta name = "keywords" content="test, HTML, meta">
+        <meta >
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <p>Hello, World! <br>
-        new line
-        </p>
+        <p><a href="#">Check the # link</a></p>
+        <form name="Name1-1" method="post" action="submit.php">
+            <fieldset>
+                <legend>Form Name</legend>
+                <label for="Name1"></label>
+                <input id="Name1" type="text"> <br>
+                <input type="submit" value="Send">
+                <input type="file" name="Upload your file"> <br>
+                <br>
+                <p>
+                    <label for="inputList">Choose your name</label> 
+                    <input list="inputList">
+                <datalist id="inputList">
+                    <option value="Name1"></option>
+                    <option value="Name2"></option>
+                    <option value="Name3"></option>
+                </datalist>
+                </p>
+            </fieldset>
+        </form>
+        
+        <a name="top"></a>
+        <h1>Hello, World!</h1>
+        <!-- comments-->
+            <p align="right">new line &euro;999<br>
+                    text   with   spaces   version   HTML
+                    <hr>
+                    another line to experiment with various tags. 
+                    <a href="https://personalkaizen.ru" target="_blank" title="Personal Kaizen">This is a link to my old site.</a> This is the result of using the <big>big</big> tag.
+                    This is the result of using the <em>EM</em> tag. And this is the result of the 
+                    <small>small</small> tag. This is to test the <strong><big>strong</big></strong> tag.
+            </p>
+            <p>
+                This is to <span>test the line</span>  spacing between paragraphs. And this is to check the <i>cursive</i> font.
+            </p>
+                    <pre>text   with   spaces   version   PRE
+                    </pre>
+                    <blockquote>This is a block of text with blockquote. I wonder <del>what it looks like</del>. 
+                        We shall <ins>see in a moment</ins>. I also wonder how it handles lines breaks. I should
+                    not, as far as I understand, unless I use a br tag. </blockquote>
+                    <img src="Buff4.png"
+                     alt="Bone Finger" border="0" height="200">
+                     <p>
+                     </p>
+                     <img src="https://i.pinimg.com/originals/10/59/38/10593837942bbbac2918db7a40f143ec.jpg" 
+                     alt="Another Dobermann" width="40%">
+                     <p></p>
+                     <a href="#top">Go to Top</a>
+                     <ol type="i" start="8">
+                         <li>List item 1</li>
+                         <li>List item 2</li>
+                         <li>List item 3</li>
+                     </ol>
+                     <p></p>
+                     <p></p>
+                     <ul align="center" type="square">
+<li>Unordered List Item 1 </li>
+<li>Unordered List Item 2</li>
+<li>Unordered List Item 3</li>
+                     </ul>
+                     <table border="5" cellspacing="10" cellpadding="10">
+                         <tr>
+                             <th rowspan="2">Column1</th>
+                             <th>Column2</th>
+                             <th>Column3</th>
+                         </tr>
+                         <tr align="center"> <td>2</td> <td>3</td> </tr>
+                         <tr align="center"><td colspan="2">4</td><td>6</td> </tr>
+                         <tr> <td><table>
+                            <caption>Вложенная таблица</caption> 
+                            <tr><td>12</td><td>13</td><td>14</td></tr>
+                             <tr><td>15</td><td>16</td><td>17</td></tr>
+                         </table></td> <td>8</td> <td>9</td></tr>
+                     </table>
+<img src="Buff4.png" alt="Finger" width="20%" title="Finger">
+
+                
     </body>
 </html>

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('bebasneue-book-webfont.woff2') format("woff2");
+         url('bebasneue-book-webfont.woff') format("woff");
+    font-size: 196;
+    font-weight: "light";
+} 

@@ -1,0 +1,79 @@
+/* Master Branch*/
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('bebasneue-book-webfont.woff2') format("woff2");
+    url('bebasneue: book webfont.woff;') format("woff");
+    font-size: 196px;
+} 
+
+.cover {
+    display: flex;
+    height: 640px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2A30;
+    z-index: 1;
+}
+
+.ellips1 {
+    position: relative;
+    z-index: 4;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(58, 57, 63, 1);
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 114px #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ellips2 {
+    position:absolute;
+    z-index: 2;
+    height: 518px;
+    width: 518px;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px #000000; 
+    box-shadow: 5px -16px 50px white; opacity: 25%;
+}
+
+.ellips3 {
+    position:absolute;
+    z-index: 3;
+    height: 518px;
+    width: 518px;
+    background-color: #900A0A ;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px #000000;
+}
+
+.time {
+    z-index: 5;
+    color: white;
+    font-family: 'Bebas Neue', 'Arial Narrow', sans-serif;
+    font-size: 196px;
+    padding-top: 120px;
+    } 
+    
+.startbutton {    
+    z-index: 5;
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.startbutton :hover {
+    color: rgb(255, 255, 255);
+}
+
+.settings {    
+    z-index: 5;
+    filter: invert(29%) sepia(0%) saturate(5368%) hue-rotate(74deg) brightness(99%) contrast(73%);
+    padding-top: 30px;
+}
