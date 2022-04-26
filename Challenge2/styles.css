@@ -8,16 +8,16 @@
 } 
 
 .cover {
-    display: flex;
+   width: 1240px;
     height: 640px;
-    align-items: center;
-    justify-content: center;
     background-color: #2B2A30;
     z-index: 1;
 }
 
 .ellips1 {
-    position: relative;
+    position: absolute;
+    top: calc(50%-125px);
+    left: calc(50%-250px);
     z-index: 4;
     height: 500px;
     width: 500px;
@@ -30,7 +30,9 @@
 }
 
 .ellips2 {
-    position:absolute;
+    position: absolute;
+    top: calc (50%-125px);
+    left: calc(50%-250px);
     z-index: 2;
     height: 518px;
     width: 518px;
@@ -41,7 +43,9 @@
 }
 
 .ellips3 {
-    position:absolute;
+    position: absolute;
+    top: calc (50%-125px);
+    left: calc(50%-250px);
     z-index: 3;
     height: 518px;
     width: 518px;
@@ -65,7 +69,7 @@
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    padding-top: 40px;
+    padding-top: 30px;
     cursor: pointer;
 }
 

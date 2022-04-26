@@ -1,0 +1,12 @@
+.cover {
+    display: flex;
+    justify-content: center;
+}
+
+.black-key :hover {
+    fill: #f40082;
+}
+
+.white-key :hover {
+    fill: #ffd200;
+}
