@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge #1</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Challenge #2</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     </head>
 <body >
-    <div class="cover">
-        <div class="ellips1">
-            <time class="time">
-                15:00
-            </time>
-            <input class="startbutton" type="button" value="S  T  A  R  T">
-            <a class="settings" href="https://personalkaizen.ru" target="_blank">
-                <img src="images/gear.svg" alt="Settings">
-            </a>
-        </div>
-        <div class="ellips2"></div>
-        <div class="ellips3"></div>
+    <main class="main">
+       
+        <section class="to-go-menu">
+            <h2 class="header">To Go Menu</h2>
+            <div class="menu-item">
+                <img src="img/plate__french-fries.png" height="50px" alt="French Fries with Ketchup">
+                <p class="menu-item__name">French Fries with Ketchup</p>
+                <p class="menu-item__price"><span>$</span><var>4.50</var></p>
+                <button class="add-to-cart-button" type="button">Add to Cart</button>
+            </div>
+            
+        </section>
 
-        
-
-    </div>
+        <section class="your-cart">
+            <h2 class="header">Your Cart</h2>
+            <p class="empty-cart">Your cart is empty</p>
+            <div class="cart-contents">
+                <div class="cart-contents__item">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
