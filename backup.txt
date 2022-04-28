@@ -111,3 +111,11 @@
     filter: invert(29%) sepia(0%) saturate(5368%) hue-rotate(74deg) brightness(99%) contrast(73%);
     padding-top: 30px;
 }
+
+
+
+
+        <div class="background__item"><img class="bg__left" src="img/bg__left.svg" alt=""></div>
+        <div class="background__item"> <img class="bg__top-right" src="img/bg__top-right.svg" alt=""></div>
+        <div class="background__item"><img class="bg__bmt-right" src="img/bg__btm-right.svg" alt=""></div>
+        <div class="background__item"></div>
