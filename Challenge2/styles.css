@@ -89,7 +89,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 100%;
-    margin-top: 5px;
+    margin-top: 5px solid;
     
 }
 
@@ -147,7 +147,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 27px;
+    margin-left: 37px;
     margin-bottom: 40px;
 }
 
@@ -210,3 +210,43 @@ h2 {
     font-family: 'Poppins', sans-serif;
 }
 
+.cart__item-stroke {
+    width: 316px;   
+    height: 1px;
+    margin-left: 27px;
+    background-color: #D7D7F9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cart__stroke {
+    width: 316px;   
+    height: 5px;
+    margin-left: 27px;
+    background-color: #D7D7F9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.checkout {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table2 {
+    margin-right: 27px;
+}
+
+.checkout__total {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #6B00F5;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.total-valign {
+    vertical-align: bottom;
+    padding-bottom: 9px;
+    padding-right: 20px;
+}
