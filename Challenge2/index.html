@@ -29,6 +29,7 @@
                     <img class="plate-image" src="img/plate__french-fries.png" height="146px" alt="French Fries with Ketchup">
                     <div class="menu-item__info">
                         <div class="menu-item__name">French Fries with Ketchup</div>
+                        <p></p>
                         <div class="menu-item__price"><span>$</span><span>2.23</span></div>
                         <button class="add-to-cart-button in-cart-button" type="button">In Cart</button>
                     </div>
@@ -38,6 +39,7 @@
                     <img class="plate-image" src="img/plate__salmon-vegetables.png" height="146px" alt="Salmon and Vegetables">
                     <div class="menu-item__info">
                         <div class="menu-item__name">Salmon and<br>Vegetables</div>
+                        <p></p>
                         <div class="menu-item__price"><span>$</span><span>5.12</span></div>
                         <button class="add-to-cart-button" type="button">Add to Cart</button>
                     </div>
@@ -47,6 +49,7 @@
                     <img class="plate-image" src="img/plate__spaghetti-meat-sauce.png" height="146px" alt="Spaghetti with Sauce">
                     <div class="menu-item__info">
                         <div class="menu-item__name">Spaghetti with<br>Sauce</div>
+                        <p></p>
                         <div class="menu-item__price"><span>$</span><span>7.82</span></div>
                         <button class="add-to-cart-button" type="button">Add to Cart</button>
                     </div>
@@ -56,6 +59,7 @@
                     <img class="plate-image" src="img/plate__bacon-eggs.png" height="146px" alt="Bacon and Eggs">
                     <div class="menu-item__info">
                         <div class="menu-item__name">Bacon and<br>Eggs</div>
+                        <p></p>
                         <div class="menu-item__price"><span>$</span><span>4.50</span></div>
                         <button class="add-to-cart-button" type="button">Add to Cart</button>
                     </div>
@@ -66,43 +70,54 @@
             <section class="your-cart">
                 <h2>Your Cart</h2>
                 
-                <p class="empty-cart">Your cart is empty</p>
+                <!-- <p class="empty-cart">Your cart is empty</p> -->
                 
                 <div class="cart-contents">
+                    
                     <div class="cart-contents__item">
+                        
                         <div class="plate">
-                            <img src="img/plate__french-fries.png" height="50px" alt="French Fries with Ketchup">
+                            <img class="plate-pic" src="img/plate__french-fries.png" height="63px" alt="French Fries with Ketchup">
                             <div class="plate-quantity">2</div>
                         </div>
+                        
                         <div class="plate-info">
-                            <table class="table1">
-                                
-                                <tr >
-                                    <td class="menu-item__name" align="left" colspan="2">
-                                    French Fries with Ketchup</td> 
-                                </tr>
-                                
-                                <tr >
-                                    <td class="cart-item__price" align="left" colspan="2">
-                                    <span>$</span><span>2.23</span></td> 
-                                </tr>
-                                
-                                <tr> 
-                                    <td class="change-quantity" align="left" >
-                                        <button class="fewer-button"><img src="img/chevron.svg" alt=""></button>
-                                        <span>2</span>
-                                        <button class="more-button"><img src="img/chevron2.svg" alt=""></button>
-                                    </td> 
-                                    <td align="right" class="menu-item__price"><span>$</span><span>4.46</span></td> 
-                                </tr>
-                                
-                            </table>
-
+                            <div class="menu-item__name">French Fries with Ketchup</div>
+                            <div class="cart-item__price"><span>$</span><span>2.23</span></div>
+                            <div class="third-line">
+                                <div><button class="change-quantity__button"><img src="img/chevron.svg" alt=""></button></div>
+                                <div class="change-quantity"><span>2</span></div>
+                                <div><button class="change-quantity__button"><img src="img/chevron2.svg" alt=""></button></div>
+                                <div class="menu-item__price"><span>$</span><span>4.46</span></div>
+                            </div>
+                         
                         </div>
                     </div>
-                </div>
-                <hr class="cart__item-stroke" >
 
+                    <hr class="cart__item-stroke" >
+
+                    <div class="cart-contents__item">
+                        
+                        <div class="plate">
+                            <img class="plate-pic" src="img/plate__spaghetti-meat-sauce.png" height="63px" alt="Spaghetti with Sauce">
+                            <div class="plate-quantity">2</div>
+                        </div>
+                        
+                        <div class="plate-info">
+                            <div class="menu-item__name">Spaghetti with Sauce</div>
+                            <div class="cart-item__price"><span>$</span><span>7.82</span></div>
+                            <div class="third-line">
+                                <div><button class="change-quantity__button"><img src="img/chevron.svg" alt=""></button></div>
+                                <div class="change-quantity"><span>2</span></div>
+                                <div><button class="change-quantity__button"><img src="img/chevron2.svg" alt=""></button></div>
+                                <div class="menu-item__price"><span>$</span><span>15.64</span></div>
+                            </div>
+                         
+                        </div>
+                    </div>
+
+                </div>
+                
                 <hr class="cart__stroke">
                 
                 <div class="checkout">
