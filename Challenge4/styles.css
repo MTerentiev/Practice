@@ -1,0 +1,80 @@
+/* (Figure out the font size issue - JS?) */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 95px;
+    width: 1199px;
+    height: 383px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    z-index: 1;
+    
+}
+
+.row-top {
+    margin-top: 41px;  
+}
+
+.row-bottom {
+    margin-bottom: 41px;  
+}
+
+.row {
+    margin-left: 31px;
+    margin-right: 31px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chars {
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 2;
+    font-family: 'Inter', sans-serif;
+    font-size: 24;
+    color: #60C1B6;
+    box-shadow: 0 1 8 rgba(0, 0, 0, 0.05);
+}
+
+.funcs {
+    color: #868888;
+}
+
+.del {
+    width: 109px;
+}
+
+.tab {
+   width: 108px;  
+}
+
+.caps {
+    width: 129px;
+}
+
+.enter {
+    width: 121px;
+}
+
+.shift-left {
+    width: 161px;
+}
+
+.shift-right {
+    width: 165px;
+}
