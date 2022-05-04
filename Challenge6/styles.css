@@ -1,0 +1,88 @@
+main {
+    width: 100%;
+    min-height: 1024px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #262529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    width: 830.15px;
+    height:577.28px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.amount {
+    font-size: 93.77px;
+    color: #FFC700;
+    margin-top: 20px;
+}
+
+.slider {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.grey-line {
+    position: absolute;
+    width: 693px;
+    height: 13.6px;
+    border-radius: 10px;
+    background-color: #4D4C53;
+    z-index: 1;
+}
+
+.red-line {
+    position: absolute;
+    width: 349px;
+    height: 13.6px;
+    border-radius: 10px;
+    background-color: #EA346F;
+    z-index: 2;
+    margin-right: 344px;
+}
+
+.ellipse1 {
+    position: absolute;
+    width: 79.72px;
+    height: 79.72px;
+    border-radius: 50%;
+    background-color: #EA346F;
+    z-index: 3;
+    opacity: 20%;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 51.64px;
+    height: 51.64px;
+    border-radius: 50%;
+    background-color: #EA346F;
+    z-index: 3;
+}
+
+.button {
+    width: 333.12px;
+    height: 108.7px;
+    border-radius: 50px;
+    background-color: #333139;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+}
