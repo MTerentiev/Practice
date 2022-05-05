@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge #7</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="results">
+        <table class="table1">
+          <tr class="upper-row">
+            <td class="results__names" align="right">Tip Amount</td>
+            <td class="results__amounts" align="left">
+              <span><sup>$</sup></span
+              ><span class="tip-amount"></span>
+            </td>
+          </tr>
+          <tr class="bottom-row">
+            <td class="results__names" align="right">Total Per Person</td>
+            <td class="results__amounts" align="left">
+              <span><sup>$</sup></span
+              ><span class="per-person-amount"></span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="inputs">
+        <div class="bill">
+          <div class="group">
+            <span><img src="img/dollar.svg" alt="Dollar Sign" /></span>
+            <input
+              class="bill__input"
+              type="number"
+              name="billAmnt"
+              id="billAmnt"
+            />
+          </div>
+          <div class="input__label"><div>Bill Amount</div></div>
+        </div>
+        <div class="divider"></div>
+        <div class="people">
+          <div class="group">
+            <span><img src="img/people.svg" alt="" /></span>
+            <input
+              class="people__input"
+              type="number"
+              name="pplNmbr"
+              id="pplNmbr"
+            />
+          </div>
+          <div class="input__label"><div>Number of People</div></div>
+        </div>
+      </div>
+      <div class="tip-rates">
+        <div class="tip-rate perCent5"><div>5%</div></div>
+        <div class="tip-rate perCent10"><div>10%</div></div>
+        <div class="tip-rate perCent15"><div>15%</div></div>
+        <div class="tip-rate perCent20"><div>20%</div></div>
+      </div>
+      <div class="bottom-group">
+        <button class="calcButton"><div>Calculate</div></button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

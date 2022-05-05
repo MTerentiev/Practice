@@ -1,0 +1,156 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6f6f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 768px;
+  height: 808px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: space-between;
+  box-shadow: 0px 0px 44px rgba(148, 146, 120, 0.23);
+}
+
+table {
+  width: 750px;
+  border-collapse: collapse;
+  margin-left: 9px;
+}
+
+.upper-row {
+  height: 160px;
+  border-bottom: 1pt solid #dedede;
+}
+
+.bottom-row {
+  height: 160px;
+}
+
+.results__names {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  width: 280px;
+}
+
+.results__amounts {
+  font-family: "Inter", sans-serif;
+  font-size: 82px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.inputs {
+  width: 100%;
+  height: 213px;
+  background-color: #f6f6f6;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.bill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bill__input {
+  width: 250px;
+  padding-left: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 62px;
+  border: none;
+  background-color: #f6f6f6;
+}
+
+.input__label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  border-top: 3px dotted #b3b3b3;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.divider {
+  width: 1px;
+  background-color: #dedede;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.people__input {
+  width: 150px;
+  padding-left: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 62px;
+  border: none;
+  background-color: #f6f6f6;
+}
+
+.tip-rates {
+  height: 109px;
+  background-color: #eeeeee;
+  border-top: 3px #afad99;
+  border-bottom: 3px #afad99;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tip-rate {
+  width: 135px;
+  height: 68px;
+  border-radius: 16px;
+  background-color: white;
+  color: #60c1b6;
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottom-group {
+  height: 136px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.calcButton {
+  width: 325px;
+  height: 68px;
+  border-radius: 16px;
+  background-color: #ed7861;
+  border: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
