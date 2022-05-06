@@ -1,7 +1,7 @@
 'use strict';
 
 let billAmount;
-let numberPeople;
+let numberPeople=1;
 let tipRate=0;
 
 document.querySelector('.perCent5').addEventListener('click', function () {
@@ -55,13 +55,16 @@ document.querySelector('.perCent20').addEventListener('click', function () {
 document.querySelector('.calcButton').addEventListener('click', function () {
 
    numberPeople = Number(document.querySelector('.people__input').value);
-   billAmount = Number(document.querySelector('.bill__input').value);
+    billAmount = Number(document.querySelector('.bill__input').value);
     
+    if (billAmount === 0 || numberPeople === 0) {
+        alert("Enter the bill amount, the number of people and choose the tip rate");
+    } else {
     let tipAmount = billAmount * tipRate;
     let perPerson = (billAmount * tipRate + billAmount) / numberPeople;
-    
     document.querySelector('.tip-amount').textContent = tipAmount.toFixed (2);
-    document.querySelector('.per-person-amount').textContent = perPerson.toFixed(2);
+        document.querySelector('.per-person-amount').textContent = perPerson.toFixed(2);
+    }
 });
 
 
